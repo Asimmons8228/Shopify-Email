@@ -62,7 +62,7 @@
                     We've gone and made selling even easier, with pre-orders. Give your customers the ability to pay now, pay a deposit, or pay later, and in the process increase your sales forecast demand, and create buzz for your products.
                 </mj-text>
                 <mj-text css-class="learn-more"> 
-                <a href="#" css-class="learn-more">Learn More &rarr;</a>                   
+                <a href="#" class="learn-more">Learn More &rarr;</a>                   
                 </mj-text>
             </mj-column>
         </mj-section>
