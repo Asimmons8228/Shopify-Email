@@ -1,0 +1,5 @@
+        <mj-section css-class="header section-padding" padding-top="10px">
+            <mj-column>
+            <mj-image src="/assets/logo.png" alt="shopify-logo" href="https://shopify.com" width="120px" align="left"/>
+        </mj-column>
+        </mj-section>

@@ -1,0 +1,122 @@
+<mjml>
+    <mj-head>
+        <mj-style>
+            *{
+                box-sizing: border-box;
+            }
+        </mj-style>
+        <mj-style inline="inline">
+            .header{
+                background: rgb(0,76,63);
+                background-color: rgb(0,76,63);
+            }
+            .section-padding{
+                padding-left: 30px !important;
+                padding-right: 30px !important;
+            }
+            .social-icons{
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+            .learn-more{
+                 color: rgb(0,133,104); 
+                 text-decoration: none;
+            }
+            .footer{
+                background-image: url("http://127.0.0.1:3000/assets/bg-colors.png");
+                background-size: 600px;
+                background-color: rgb(255, 255, 255);
+            }
+        </mj-style>
+    </mj-head>
+    <mj-body width="600px" background-color="rgb(250,250,250)">
+        <mj-include path="./components/header.mjml"/>
+        <mj-section padding-bottom="0" background-color="rgb(255,255,255)">
+            <mj-column>
+                <mj-text font-size="40px" color="rgb(0,76,63)" font-weight="800" padding-bottom="0">
+                    What's New
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section padding-top="12px" background-color="rgb(255,255,255)">
+            <mj-column>
+                <mj-text color="rgb(0,76,63)" font-weight="400">
+                    January 3, 2023
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="rgb(255,255,255)" padding-top="10px" padding-bottom="10px">
+            <mj-column width="100%">
+                <mj-image src="/assets/3-lines.png" width="600px" alt="" padding-left="0" padding-right="0"/>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="rgb(255,255,255)" padding-top="0">
+            <mj-column width="50%">
+                <mj-image src="/assets/image.jpg" alt="" width="255px" />
+            </mj-column>
+            <mj-column width="50%">
+                <mj-text color="rgb(0,76,63)" font-size="20px" font-weight="600">
+                    Find more ways to sell with pre-orders
+                </mj-text>
+                <mj-text color="rgb(33,104,94)" font-weight="400" line-height="1.3">
+                    We've gone and made selling even easier, with pre-orders. Give your customers the ability to pay now, pay a deposit, or pay later, and in the process increase your sales forecast demand, and create buzz for your products.
+                </mj-text>
+                <mj-text css-class="learn-more"> 
+                <a href="#" css-class="learn-more">Learn More &rarr;</a>                   
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="rgb(255,255,255)" padding-top="10px" padding-bottom="10px">
+            <mj-column width="100%">
+                <mj-image src="/assets/3-lines.png" width="600px" alt="" padding-left="0" padding-right="0"/>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="rgb(255,255,255)" padding-bottom="10px">
+            <mj-column >
+                <mj-text align="center"  padding-left="40px" padding-right="40px" font-size="16px" font-weight="500" line-height="1.5" >
+                    Running a business like yours isn't a desk job.<br>Keep it from becoming one with the Shopify App.
+                </mj-text>
+            </mj-column>
+        </mj-section >
+        <mj-section padding="0" background-color="rgb(255,255,255)">
+            <mj-column padding="0">
+                <mj-image src="/assets/appstore.png" href="#" alt="" width="145px" height="40px" align="right" padding="0" padding-right="5px"/>
+            </mj-column>
+            <mj-column padding="0">
+                <mj-image src="/assets/android.png" href="#" alt="" width="145px" height="40px" align="left" padding="0" padding-left="5px"/>
+            </mj-column>
+        </mj-section>
+        <mj-wrapper padding="0" css-class="footer">            
+        <mj-section  padding="30px">
+            <mj-column >                
+                <mj-social icon-size="25px" icon-height="25px" inner-padding="8px">
+                    <mj-social-element src="/assets/fb.png" alt="" align="center" padding-left="10px" padding-right="10px" href="https://facebook.com" />
+                    </mj-scoial-element>                
+                    <mj-social-element src="/assets/tw.png" alt="" align="center" padding-left="10px" padding-right="10px" href="https://twitter.com"/>
+                    </mj-scoial-element>
+                    <mj-social-element src="/assets/insta.png" alt="" align="center" padding-left="10px" padding-right="10px" href="https://instagram.com"/>
+                    </mj-scoial-element>
+                    <mj-social-element src="/assets/snap.png" alt="" align="center" padding-left="10px" padding-right="10px" href="https://snapchat.com"/>
+                    </mj-scoial-element>
+                    <mj-social-element src="/assets/in.png" alt="" align="center" padding-left="10px" padding-right="10px" href="https://linkedin.com"/>
+                    </mj-scoial-element>
+                    <mj-social-element src="/assets/pin.png" alt="" align="center" padding-left="10px" padding-right="10px" href="https://pinterest.com"/>
+                    </mj-scoial-element>
+                    <mj-social-element src="/assets/yt.png" alt="" align="center" padding-left="10px" padding-right="10px" href="https://youtube.com"/>
+                    </mj-scoial-element>
+            </mj-social>
+            </mj-column>
+        </mj-section>
+        <mj-section  padding-bottom="60px">
+            <mj-column>
+                <mj-text align="center" color="rgb(136,142,150)" font-weight="400" font-size="11px">
+                    &#169; Shopify, 151 O'Connor Street, Ground floor, Ottawa ON, K2P 2L8
+                </mj-text>
+                <mj-text align="center" color="rgb(136,142,150)" font-weight="400" font-size="11px">
+                    Unsubscribe | Manage your email preferences
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        </mj-wrapper>
+    </mj-body>    
+</mjml>
