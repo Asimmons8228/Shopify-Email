@@ -23,7 +23,7 @@
                  text-decoration: none;
             }
             .footer{
-                background-image: url("http://127.0.0.1:3000/assets/bg-colors.png");
+                background-image: url("/assets/bg-colors.png");
                 background-size: 600px;
                 background-color: rgb(255, 255, 255);
             }
@@ -80,10 +80,12 @@
         </mj-section >
         <mj-section padding="0" background-color="rgb(255,255,255)">
             <mj-column padding="0">
-                <mj-image src="/assets/appstore.png" href="#" alt="" width="145px" height="40px" align="right" padding="0" padding-right="5px"/>
-            </mj-column>
-            <mj-column padding="0">
-                <mj-image src="/assets/android.png" href="#" alt="" width="145px" height="40px" align="left" padding="0" padding-left="5px"/>
+            <mj-social icon-size="145px" icon-height="40px" align="center">
+                <mj-social-element  src="/assets/appstore.png" align="center">
+                </mj-social-element>
+                <mj-social-element src="/assets/android.png">
+                </mj-social-element>
+            </mj-social>
             </mj-column>
         </mj-section>
         <mj-wrapper padding="0" css-class="footer">            
